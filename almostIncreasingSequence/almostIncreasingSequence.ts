@@ -13,9 +13,5 @@ function almostIncreasingSequence(sequence: number[]): boolean {
   return count <= 1;
 }
 
-// find first wrong and remove
-// If the soreted version is equal to original, then true
-// else falls
-
 console.log(almostIncreasingSequence([1, 3, 2, 1])) 
 console.log(almostIncreasingSequence([1, 3, 2])) 
