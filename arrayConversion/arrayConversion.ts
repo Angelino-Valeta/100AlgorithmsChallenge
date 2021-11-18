@@ -1,5 +1,5 @@
 function arrayConversion(inputArray: number[]): number {
-  const finalArray = inputArray.concat();
+  const finalArray = inputArray;
   let odd = false;
 
   while(finalArray.length !== 1 ) {
